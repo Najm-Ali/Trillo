@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sass/base.css" />
+    <link rel="stylesheet" href="sass/layouts.css" />
+    <link rel="stylesheet" href="sass/componentes.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>TRILLO</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#">
+          <img src="img/logo.png" alt="TRILLO LOGO" class="logo"
+        /></a>
+        <form action="#" class="search">
+          <input type="text" class="search_input" placeholder="Search hotels" />
+          <button class="search_btn">
+            <ion-icon name="search-outline" class="search_icons"></ion-icon>
+          </button>
+        </form>
+        <nav class="user-nav">
+          <div class="user-nav_icon-box">
+            <ion-icon name="bookmark-outline" class="user-nav_icon"></ion-icon>
+            <span class="user-nav_notification">7</span>
+          </div>
+          <div class="user-nav_icon-box">
+            <ion-icon
+              name="chatbubbles-outline"
+              class="user-nav_icon"
+            ></ion-icon>
+            <span class="user-nav_notification">13</span>
+          </div>
+          <div class="user-nav_user">
+            <img
+              src="img/najm.jpg"
+              alt="user photo"
+              class="user-nav_user-photo"
+            />
+            <span class="user-nav_user-name">NAJM</span>
+          </div>
+        </nav>
+      </header>
+      <!-- HEADER SECTION END FROM HERE -->
+      <!-- /////////////////////////// -->
+      <!-- SIDEBAR SECTION START FROM HERE -->
+      <div class="content">
+        <nav class="sidebar">
+          <div class="side">
+            <ul class="side-nav">
+              <li class="side-nav_item side-nav_item-active">
+                <a href="#" class="side-nav_link">
+                  <ion-icon
+                    name="home-outline"
+                    class="side-nav_icon"
+                  ></ion-icon>
+                  <span class="side-nav_name">HOTELS</span>
+                </a>
+              </li>
+            </ul>
+            <ul class="side-nav">
+              <li class="side-nav_item">
+                <a href="#" class="side-nav_link">
+                  <ion-icon
+                    name="airplane-outline"
+                    class="side-nav_icon"
+                  ></ion-icon>
+                  <span class="side-nav_name">FLIGHTS</span>
+                </a>
+              </li>
+            </ul>
+            <ul class="side-nav">
+              <li class="side-nav_item">
+                <a href="#" class="side-nav_link">
+                  <ion-icon name="car-outline" class="side-nav_icon"></ion-icon>
+                  <span class="side-nav_name">CAR RENTAL</span>
+                </a>
+              </li>
+            </ul>
+            <ul class="side-nav">
+              <li class="side-nav_item">
+                <a href="#" class="side-nav_link">
+                  <ion-icon name="map-outline" class="side-nav_icon"></ion-icon>
+                  <span class="side-nav_name">TOURS</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="legal">© 2017 by trillo. All rights reserved.</div>
+        </nav>
+        <!-- SIDEBAR-SECTION END FROM HERE -->
+        <!-- //////////////////////////// -->
+        <!-- MAIN CONTENT START FROM HERE -->
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery_items">
+              <img
+                src="img/hotel-1.jpg"
+                alt="hotel photo 1"
+                class="gallery_photo"
+              />
+            </figure>
+            <figure class="gallery_items">
+              <img
+                src="img/hotel-2.jpg"
+                alt="hotel photo 2"
+                class="gallery_photo"
+              />
+            </figure>
+            <figure class="gallery_items">
+              <img
+                src="img/hotel-3.jpg"
+                alt="hotel photo 3"
+                class="gallery_photo"
+              />
+            </figure>
+          </div>
+
+          <!-- GALLERY SECTION END FORM HERE -->
+          <!-- //////////////////////////// -->
+          <!-- OVERVIEW SECTION STARTS FROM HERE -->
+
+          <div class="overview">
+            <h1 class="overview_heading">HOTEL LAS PALMAS</h1>
+            <div class="overview_stars">
+              <ion-icon name="star" class="overview_icons"></ion-icon>
+              <ion-icon name="star" class="overview_icons"></ion-icon>
+              <ion-icon name="star" class="overview_icons"></ion-icon>
+              <ion-icon name="star" class="overview_icons"></ion-icon>
+              <ion-icon name="star" class="overview_icons"></ion-icon>
+            </div>
+            <div class="overview_location">
+              <ion-icon
+                name="location-outline"
+                class="overview_location-icon"
+              ></ion-icon>
+              <a href="#" class="overview_inline-btn"> Albufeira, Portugal</a>
+            </div>
+            <div class="overview_ratings">
+              <div class="overview_rates">8.6</div>
+              <div class="overview_votes">429 votes</div>
+            </div>
+          </div>
+          <!-- OVERVIEW SECTION END FORM HERE -->
+          <!-- //////////////////////////// -->
+          <!-- WEBSITE DETAIL SECTION STARTS FROM HERE -->
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                nisi dignissimos debitis ratione sapiente saepe. Accusantium
+                cumque, quas, ut corporis incidunt deserunt quae architecto
+                voluptate.
+              </p>
+              <p class="paragraph paragraph-border">
+                Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                architecto voluptate delectus, inventore iure aliquid aliquam.
+              </p>
+              <ul class="list">
+                <li class="list_item">
+                  <ion-icon
+                    name="chevron-forward-outline"
+                    class="list_icon"
+                  ></ion-icon
+                  >Close to the beach
+                </li>
+                <li class="list_item">
+                  <ion-icon
+                    name="chevron-forward-outline"
+                    class="list_icon"
+                  ></ion-icon
+                  >Free airport shuttle
+                </li>
+                <li class="list_item">
+                  <ion-icon
+                    name="chevron-forward-outline"
+                    class="list_icon"
+                  ></ion-icon
+                  >Air conditioning and heating
+                </li>
+                <li class="list_item">
+                  <ion-icon
+                    name="chevron-forward-outline"
+                    class="list_icon"
+                  ></ion-icon
+                  >We speak all languages
+                </li>
+                <li class="list_item">
+                  <ion-icon
+                    name="chevron-forward-outline"
+                    class="list_icon"
+                  ></ion-icon
+                  >Breakfast included
+                </li>
+                <li class="list_item">
+                  <ion-icon
+                    name="chevron-forward-outline"
+                    class="list_icon"
+                  ></ion-icon
+                  >Free wifi in all rooms
+                </li>
+                <li class="list_item">
+                  <ion-icon
+                    name="chevron-forward-outline"
+                    class="list_icon"
+                  ></ion-icon
+                  >Pets allowed
+                </li>
+                <li class="list_item">
+                  <ion-icon
+                    name="chevron-forward-outline"
+                    class="list_icon"
+                  ></ion-icon
+                  >Perfect for families
+                </li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend_count">
+                  Lucy and 3 other friends recommend this hotel.
+                </p>
+                <div class="recommend_friends">
+                  <img
+                    src="img/user-3.jpg"
+                    alt="user photo"
+                    class="recommend_photos"
+                  />
+                  <img
+                    src="img/user-4.jpg"
+                    alt="user photo"
+                    class="recommend_photos"
+                  />
+                  <img
+                    src="img/user-5.jpg"
+                    alt="user photo"
+                    class="recommend_photos"
+                  />
+                  <img
+                    src="img/user-6.jpg"
+                    alt="user photo"
+                    class="recommend_photos"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- WEBSITRE DETAIL SECTION END FORM HERE -->
+            <!-- //////////////////////////// -->
+            <!-- CUSTOMER REVIEW SECTION STARTS FROM HERE -->
+
+            <!-- 1st USER -->
+            <div class="user-review">
+              <figure class="review">
+                <blockquote class="review_text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                  doloremque architecto dicta animi, totam, itaque officia ex.
+                </blockquote>
+                <figcaption class="review_user">
+                  <img
+                    src="img/user-1.jpg"
+                    alt="user photo 1"
+                    class="review_photo"
+                  />
+                  <div class="review_user-box">
+                    <p class="review_user-name">NICK SMITH</p>
+                    <p class="review_date">Feb 23rd, 2017</p>
+                  </div>
+
+                  <div class="review_rating">7.8</div>
+                </figcaption>
+              </figure>
+              <!--2ND USER -->
+              <figure class="review">
+                <blockquote class="review_text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                  doloremque architecto dicta animi.
+                </blockquote>
+                <figcaption class="review_user">
+                  <img
+                    src="img/user-2.jpg"
+                    alt="user photo 2"
+                    class="review_photo"
+                  />
+                  <div class="review_user-box">
+                    <p class="review_user-name">MARY THOMAS</p>
+                    <p class="review_date">Sept 13th, 2017</p>
+                  </div>
+
+                  <div class="review_rating">9.3</div>
+                </figcaption>
+              </figure>
+              <a href="#" class="overview_inline-btn"
+                >Show all <span>&rarr; </span></a
+              >
+            </div>
+          </div>
+          <div class="cta">
+            <h2 class="cta_book-now">
+              GOOD NEWS! WE HAVE 4 FREE ROOMS FOR YOUR SELECTED DATES!
+            </h2>
+
+            <button class="button">
+              <span class="button_visible">BOOK NOW</span>
+              <span class="button_invisible">ONLY 4 ROOMS LEFT</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
